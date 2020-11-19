@@ -1,0 +1,194 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+body{ 
+   font-size: 20px;
+   font-family: 'Salsa', cursive;
+   width: 100%;
+   max-width: 700px;
+   margin:0 auto; 
+   padding: 0;
+   
+}
+
+body {
+   background-image: url(https://64.media.tumblr.com/1e216362f6cf0433007ab7260231c114/tumblr_nhzubj5DnS1u2voado1_500.gifv);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+footer{ 
+   color: wheat;
+   font-size: 48px;
+   font-family: unset;
+   text-align: center;   
+}
+
+footer a{
+   cursor: crosshair;
+}
+
+h1{
+    font-size: 30px;
+   font-family: unset;
+   text-align: center;
+   color: indianred;
+   text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+}
+     
+
+
+  
+h2{
+   font-size: 100px;
+   text-align: center;
+   font-weight: 100px;
+   font-family: sans-serif;
+   color: transparent;
+   background-image: url(https://media.giphy.com/media/l0Ex7JJvEwVXuyOTS/giphy.gif);
+   background-position: center;
+   -webkit-background-clip: text;
+   
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  p{
+   font-size: 27px;
+   font-family: 'Lobster', cursive;
+   color: indianred;
+   text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+  }
+ 
+  li{
+   font-size: 30px;
+   font-family: 'Lobster', cursive;
+   color: indianred;
+   text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+  }
+
+  ol{
+   font-size: 30px;
+   font-family: 'Lobster', cursive;
+   color: indianred;
+   text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+  }
+ 
+  .large {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+ }
+
+ .container{
+   width: 80%;
+   max-width: 700%;
+   margin:0 auto;
+ }
+
+  .middlle{
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.btn {
+   background: none;
+   border: 2px solid salmon;
+   font-family: unset;
+   text-transform: uppercase;
+   padding: 12px 20px;
+   min-width: 200px;
+   margin:10px;
+   cursor: crosshair;
+   transition: color 0.4s linear;
+   position: relative;
+
+}
+
+.btn a{
+   color: indianred;
+   text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+   font-size: 25px;
+}
+
+.btn:hover{
+   color: lightcoral;
+}
+
+.btn::before{
+  background: lightcoral;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  content:"";
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100%
+  
+}
+
+.btn1::before{
+   transform: scaleX(0); 
+}
+
+.btn2::before{
+  transform: scaleX(0); 
+}
+
+.btn3::before{
+  transform: scaleX(0); 
+}
+
+.btn4::before{
+  transform: scaleX(0); 
+}
+
+.btn1:hover::before{
+  transform: scaleX(1);
+}
+
+.btn2:hover::before{
+  transform: scaleX(1);
+}
+
+.btn3:hover::before{
+  transform: scaleX(1);
+}
+
+.btn4:hover::before{
+  transform: scaleX(1);
+}
+
+
+.enlace {
+   display:inline;
+   margin:0;
+   background:none;
+   font-size: 1em;
+   line-height:1em;
+   border: 2px solid salmon;
+   font-family: unset;
+   text-transform: uppercase;
+   padding: 12px 20px;
+   min-width: 200px;
+   margin:10px;
+   cursor: crosshair;
+   transition: color 0.4s linear;
+   position: relative;
+ }
+ 
+ .enlace:hover {
+   text-decoration:underline;
+   color:white;
+   cursor:pointer;
+ }

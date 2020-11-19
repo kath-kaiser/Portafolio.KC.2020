@@ -1,2 +1,2 @@
-# Portafolio.KC.2020
-Tercer intento de repositorio
+# Portafolio_KC_2020
+Segundo portafolio de la clase imagen escrita 2020.
